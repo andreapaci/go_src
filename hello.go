@@ -21,7 +21,7 @@ func main() {
 	// Initialize a session in us-west-2 that the SDK will use to load
 	// credentials from the shared credentials file ~/.aws/credentials.
 	sess, err := session.NewSession(&aws.Config{
-		Region:      aws.String("us-west-2"),
+		Region:      aws.String("us-east-1"),
 		Credentials: credentials.NewStaticCredentials("ASIAQENA3UJ46NRAAE5S", "B+GGbl5ZagBJq1x221HEpRHFa6IoV9gMfolLNaS3", "FwoGZXIvYXdzEM3//////////wEaDGxz/cr6C2fxsowxoCLPAdVPuKxttdqQXIX7j0fzFx55CXcGCemBqcGfTAREERZvhe9Dv8InusRxz4IErwxYrEhL54+EuGH1rIh+JgP6Kb8gP1wU7mczUIl61fK70smTQcVWPv9nMO/c+7URk9dQBRHjOMqPQa7c2NzdLM6Ypw1B+GNcBJs1zlvgF13PAGTWpjEK8dmfhOvNKzC9sXhsfmGpI+pVhVgtqAMhp1cxiuyx+zo5v2VRx/KgsOWAscUDezfn5aLIr8npvkX04IVTiCpltoPBqY9KzeotOp2Qbiizxo76BTIthqLzOK6clc6WjFk4VlRjdBL/UwmPV8Y/x01JDnaJM+YWqV9xc1OAUq7QqyV0"),
 	})
 
